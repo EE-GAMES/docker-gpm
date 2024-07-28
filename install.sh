@@ -2,8 +2,8 @@
 
 echo "Game Package Manager init..."
 
-mkdir ./data && chown -R 200 ./data
+sudo mkdir ./data && chown -R 200 ./data
 
-docker network create devopsnetwork
+sudo docker network create devopsnetwork
 
-docker compose up -d
+sudo docker compose up -d
